@@ -1,0 +1,15 @@
+# Compiler output: this repository holds sources only. The units are compiled
+# into the building product's own output folders, but an IDE or a loose fpc
+# call can leave these beside the sources.
+*.o
+*.ppu
+*.compiled
+*.a
+*.rsj
+*.bak
+*.~*
+*.lps
+
+# A test suite's output folders
+/lib/
+/tests/lib/
